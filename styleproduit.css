@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section {
+    background-color: rgb(22, 23, 29);
+    height: 100vh;
+
+}
+.imagebague { height: 30%;
+
+}
+
+
+
+.blue {
+    background-color: rgb(40, 40, 47);
+    color: rgb(98, 101, 101);
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 45px;
+}
+h1 {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 900px) {
+
+    
+}
