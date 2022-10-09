@@ -5,31 +5,145 @@
 }
 
 
-
-section {
-    background-color: rgb(22, 23, 29);
-    height: 100vh;
-
-}
-.imagebague { height: 30%;
-
-}
-
-
-
-.blue {
-    background-color: rgb(40, 40, 47);
-    color: rgb(98, 101, 101);
+.Titre {
+    background-color: rgb(20, 20, 34);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px;
-    border-radius: 2px;
+    padding: 150px;
     font-size: 45px;
+    font-family: 'Jost', sans-serif;
 }
 h1 {
-    background-color: aliceblue;
+    background-color: rgb(36, 42, 55);
 }
 
+
+.imagebague { 
+    height: 770px;
+    
+    background-image: url(bague.png);
+    background-color: gray;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.slogan {
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.descriptionbague { 
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: rgb(200, 200, 200);
+}
+
+.détails {
+    height: 500px;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    background-color: rgb(101, 92, 82);
+    flex-direction: row;
+    font-family: 'Jost', sans-serif;
+    padding-right: 300px;
+    
+}
+
+.textedetails {
+    font-size: 21px;
+    padding-bottom: 70px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.femmebague img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+.piedpage {
+    height: 80px;
+    color: beige;
+    background-color: rgb(20, 20, 35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    background-color: rgb(170, 174, 204);
+    padding: 20px;
+    border-radius: 10px;
+}
+a:hover {
+    transition: 0.5s;
+    background-color: rgb(62, 102, 171);
+}
+
+
+
 @media screen and (max-width: 900px) {
+    
+    .imagebague { 
+        height: 200px;
+        
+        background-image: url(bague.png);
+        background-color: gray;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .Titre {
+        background-color: rgb(20, 20, 34);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 70px;
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .slogan {
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+    }
+    
+    .descriptionbague { 
+        font-family: 'Jost', sans-serif;
+        font-size: 10px;
+        color: rgb(200, 200, 200);
+    }
+    
+    .détails {
+        height: 200px;
+    
+        display: flex;
+        align-items: flex-end;
+        padding: 15px;
+        background-color: rgb(101, 92, 82);
+        flex-direction: row;
+        font-family: 'Jost', sans-serif;
+        padding-right: 100px;
+        
+    }
+    
+    .textedetails {
+        font-size: 11px;
+        padding-bottom: 40px;
+        color: rgb(0, 0, 0);
+        
+    }
+    
+    .femmebague img{
+        width: 40%;
+        border-radius: 10px;
+    }
 
     
 }
